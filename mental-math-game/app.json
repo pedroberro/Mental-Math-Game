@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Mental Math Game",
+    "slug": "mental-math-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2196F3"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.example.mentalmath"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2196F3"
+      },
+      "package": "com.example.mentalmath",
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
